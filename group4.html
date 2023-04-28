@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 1</title>
+    <style>
+        body{
+            background-image: url(images/main.jpg);
+
+        }
+        .main{
+            background-color: rgb(116, 166, 56);
+            width: 400px;
+            height: 465px;
+            border-radius: 10px;
+            padding: 10px 10px;
+            text-align: center;
+            opacity: .9;
+            margin-left: 300px;
+            margin-top: 60px;
+        }
+        .child{
+            border: 1px solid green;
+            width: 90px ;
+            height: 110px;
+            display: inline-block;
+            border-radius: 8px;
+            
+        }
+        .start{
+            padding: 10px;
+            color: black;
+            border-radius: 8px;
+            border: 1px solid black;
+            background-color:rgb(116, 166, 56) ;
+            opacity: .9;
+            font-family: 'Times New Roman', Times, serif;
+            width: 90px;
+            font-weight: bold;
+            font-size: 15px;
+            top: 300px;
+            position: absolute; 
+            left: 1000px;  
+        }
+        img{
+            width: 90px;
+            height: 110px;
+            border: 1px solid green;
+            border-radius: 10px;
+        }
+        .images{
+            margin-left: 320px;
+        }
+        .image1,.image2,.image3,.image4{
+            display: inline-block;
+            text-align: center;
+        }
+        p{
+            font-weight: bold;
+            font-size: 20px;
+            color: white;
+        }
+        .timer{
+            background-color: rgb(116, 166, 56);
+            opacity: .9;
+            position: absolute;
+            top: 50px;
+            left: 1000px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="images">
+        <div class="image1">
+    <img src="images/13.jpg" >
+    <p>1</p>
+       </div>
+       <div class="image2">
+    <img src="images/14.jpg" >
+    <p>2</p>
+</div>
+<div class="image3">
+    <img src="images/15.jpg" >
+    <p>3</p>
+    </div>
+    <div class="image4">
+    <img src="images/16.jpg" >
+    <p>4</p>
+    </div>
+    </div>
+    <div class="main">
+       <div class="child"></div>
+       <div class="child"></div>
+       <div class="child"></div>
+       <div class="child"></div>
+       <div class="child"></div>
+       <div class="child"></div>
+       <div class="child"></div>
+       <div class="child"></div>
+       <div class="child"></div>
+       <div class="child"></div>
+       <div class="child"></div>
+       <div class="child"></div>
+       <div class="child"></div>
+       <div class="child"></div>
+       <div class="child"></div>
+       <div class="child"></div>
+    </div>
+    <div>
+        <p>Welcome</p><span id="name"></span>
+    </div>
+    <p class="timer"><span id="min">00</span>:<span id="seconds">59</span></p>
+    <button class="start" id="st_button">start</button>
+    <script src="gaming4.js"></script>
+</body>
+</html>

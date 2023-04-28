@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <style>
+        body{
+            background-image: url(images/main.jpg);
+        }
+      form{
+        margin-top: 200px;
+        padding: 20px;
+      }
+      div{
+        background-color: rgb(116, 166, 56);
+        width: 400px;
+        height: 400px;
+        text-align: center;
+        margin: 40px auto;
+        opacity: .8;
+        border-radius: 10px;
+        
+      }
+      label{
+        display: block;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 20px;
+
+      }
+      input{
+        margin: 20px;
+        width: 200px;
+        border-radius: 5px;
+      }
+      .submission{
+        display: block;
+        margin: 20px auto;
+        width: 80px;
+        font-size: 20px;
+        border-radius: 5px;
+      }
+      select{
+        margin:40px ;
+        width: 200px;
+        border-radius: 5px;
+      }
+      #spanError{
+        color: red;
+        font-weight: 20px;
+        font-weight: bold;
+        visibility: hidden;
+        display: block;
+      }
+    </style>
+</head>
+<body>
+    <div>
+    <form action="grouping.html">
+        <label>User Name</label>
+        <input type="text" name="username" value=""placeholder="Enter your name">
+        <span id="spanError">*Name is Required</span>
+        <label>Select Level</label>
+        <select name="levels">
+            <option value="1">level 1</option>
+        </select>
+         <input type="submit" value="Login" class="submission">
+    </form>
+    </div>
+    <script src="gaming.js"></script>
+</body>
+</html>
